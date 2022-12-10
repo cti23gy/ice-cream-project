@@ -1,0 +1,36 @@
+.vote {
+    background-color: $site-pink;
+    height: 800px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        padding-top: 50px;
+    }
+
+    #vote_list {
+        background-color: $site-green;
+        width: 600px;
+        min-height: 500px;
+
+
+        .vote_item {
+            background-color: $site-white;
+            width:500px;
+            height: 120px;
+            padding: 20px 40px;
+            margin: 50px;
+        }
+
+        h2 {
+            
+        }
+
+        button {
+            margin-left: 60px;
+            margin-bottom: 30px;
+        }
+    }
+}

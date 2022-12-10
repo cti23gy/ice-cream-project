@@ -1,0 +1,21 @@
+.request {
+    background-color: $site-pink;
+    height: 600px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    input {
+        width: 200px;
+        margin: 40px 0;
+        padding: 10px;
+    }
+
+    button {
+        width: 200px;
+        margin-bottom: 100px;
+        padding: 10px;
+    }
+}

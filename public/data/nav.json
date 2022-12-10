@@ -1,0 +1,39 @@
+{
+    "Navigation": [
+        {
+            "linkName": "home",
+            "hrefLink": "#/home",
+            "loginRequired": false
+        },
+        {
+            "linkName": "order",
+            "hrefLink": "#/order",
+            "loginRequired": false
+        },
+        {
+            "linkName": "request",
+            "hrefLink": "#/request",
+            "loginRequired": true
+        },
+        {
+            "linkName": "vote",
+            "hrefLink": "#/vote",
+            "loginRequired": true
+        },
+        {
+            "linkName": "cart",
+            "hrefLink": "#/cart",
+            "loginRequired": false
+        },
+        {
+            "linkName": "login",
+            "hrefLink": "#/login",
+            "loginRequired": false
+        },
+        {
+            "linkName": "profile",
+            "hrefLink": "#/profile",
+            "loginRequired": true
+        }
+    ]
+}

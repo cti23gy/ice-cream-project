@@ -1,0 +1,23 @@
+.login {
+    background-color: $site-pink;
+    height: 560px;
+    padding: 100px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    .signin {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 100px;
+    }
+
+    .log_block {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 100px;
+    }
+
+}

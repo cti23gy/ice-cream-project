@@ -1,0 +1,27 @@
+.profile {
+    background-color: $site-pink;
+    height: 720px;
+    padding: 80px 200px;
+    #userData {
+        padding: 20px;
+        display: flex;
+        .userinfo {
+            padding-top: 20px;
+            width: 300px;
+            height: 80px;
+            //display: flex;
+        }
+        .cardinfo {
+            width: 300px;
+            height: 220px;
+            font-size: 12px;
+        }
+
+        p {
+            padding-top: 20px;
+        }
+    }
+    button {
+        padding: 2px;
+    }
+}

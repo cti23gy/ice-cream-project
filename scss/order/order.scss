@@ -1,0 +1,182 @@
+.order {
+    background-color: $site-pink;
+    height: 940px;
+
+    h1 {
+        padding: 50px;
+    }
+
+
+    .content {
+        display: flex;
+        justify-content: center;
+        #dynamicImage {
+            background-color: $site-white;
+            width: 400px;
+            height: 400px;
+
+            .i_bowl {
+                width: 200px;
+                height: 100px;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-image: url(../images/i_bowl.png);
+
+                position: absolute;
+                margin: 240px 100px;
+                z-index: 80;
+            }
+
+            .f_vanilla {
+                width: 190px;
+                height: 200px;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-image: url(../images/f_vanilla.png);
+
+                position: absolute;
+                margin: 100px 105px;
+                z-index: 70;
+            }
+            .f_chocolate {
+                width: 190px;
+                height: 200px;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-image: url(../images/f_chocolate.png);
+
+                position: absolute;
+                margin: 100px 105px;
+                z-index: 70;
+            }
+            .f_strawberry {
+                width: 190px;
+                height: 200px;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-image: url(../images/f_strawberry.png);
+
+                position: absolute;
+                margin: 100px 105px;
+                z-index: 70;
+            }
+            .f_mint {
+                width: 190px;
+                height: 200px;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-image: url(../images/f_mint.png);
+
+                position: absolute;
+                margin: 100px 105px;
+                z-index: 70;
+            }
+
+            .t_chips {
+                width: 180px;
+                height: 180px;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-image: url(../images/t_chips.png);
+
+                position: absolute;
+                margin: 100px 110px;
+                z-index: 73;
+            }
+            .t_sprinkles {
+                width: 180px;
+                height: 180px;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-image: url(../images/t_sprinkles.png);
+
+                position: absolute;
+                margin: 105px 110px;
+                z-index: 71;
+            }
+            .t_whip {
+                width: 100px;
+                height: 110px;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-image: url(../images/t_whip.png);
+
+                position: absolute;
+                margin: 40px 150px;
+                z-index: 72;
+            }
+            .t_oreos {
+                width: 240px;
+                height: 200px;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-image: url(../images/t_oreos.png);
+
+                position: absolute;
+                margin: 140px 80px;
+                z-index: 74;
+            }
+
+        }
+    
+        .options {
+            padding: 20px;
+            margin-left: 20px;
+            background-color: $site-white;
+            width: 400px;
+            height: 300px;
+
+            h2 {
+                padding-top: 10px;
+            }
+
+            button {
+                margin: 2px;
+                padding: 2px;
+            }
+
+            input {
+                margin: 15px;
+                padding: 2px;
+            }
+        }
+    }
+
+    .currentOrder {
+        background-color: $site-green;
+        width: 500px;
+        height: 220px;
+
+        margin-left: 16%;
+        padding: 20px;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+}

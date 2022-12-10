@@ -1,0 +1,32 @@
+{
+    "PremadeOrders": [
+        {
+            "flavor": "Vanilla",
+            "chips": false,
+            "sprinkles": false,
+            "whip": false,
+            "oreos": false
+        },
+        {
+            "flavor": "Vanilla",
+            "chips": false,
+            "sprinkles": true,
+            "whip": false,
+            "oreos": false
+        },
+        {
+            "flavor": "Mint",
+            "chips": true,
+            "sprinkles": false,
+            "whip": false,
+            "oreos": false
+        },
+        {
+            "flavor": "Strawberry",
+            "chips": false,
+            "sprinkles": false,
+            "whip": true,
+            "oreos": false
+        }    
+    ]
+}

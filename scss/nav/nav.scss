@@ -1,0 +1,28 @@
+nav {
+    height: 80px;
+    background-color: $site-green;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+    .navsignin {
+        display: block;
+    }
+
+    .navsignout {
+        display: hidden;
+    }
+
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    
+}
+
+
